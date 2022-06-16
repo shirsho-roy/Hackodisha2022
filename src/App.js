@@ -1,7 +1,10 @@
-import "./App.css";
+
+import Stats from "./components/statistics/Stats";
 
 function App() {
-  return <div className="App">Hey I am in</div>;
+  return <div>
+    <Stats/>
+  </div>;
 }
 
 export default App;
