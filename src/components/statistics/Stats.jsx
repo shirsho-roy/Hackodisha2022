@@ -4,7 +4,7 @@ import {FaRegUser} from "react-icons/fa";
 import {FaNetworkWired} from "react-icons/fa";
 
 function Stats(){
-  return(<div style={{backgroundImage:`linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, #000000 100%)`}}>
+  return(<div id='stats' style={{backgroundImage:`linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, #000000 100%)`}}>
     <section className='text-white text-2xl font-bold'>  
     <h1 className='mx-16 py-10 mb-4 text-4xl font-normal'>HackOdisha 1.0 Statistics</h1>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
