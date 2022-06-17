@@ -6,6 +6,7 @@ import Stats from "./components/statistics/Stats";
 function App() {
   return (
     <div>
+      <Header />
       <About />
       <Stats />
       <Footer />

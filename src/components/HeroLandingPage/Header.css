@@ -56,15 +56,15 @@ li {
     /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
-    font-size: 110px;
-    line-height: 120px;
+    font-size: 80px;
+    line-height: 90px;
     width:60%;
 }
 .text2{
 font-style: normal;
 font-weight: 400;
-font-size: 38px;
-line-height: 48px;
+font-size: 28px;
+line-height: 1.75rem;
 color: #FFFFFF;
 width: 60%;
 }

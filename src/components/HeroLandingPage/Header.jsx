@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './g2700.png';
+import Logo from '../../assets/g2700.png';
 import Button from '../Buttons/Button';
 import Button2 from '../Buttons/Button2';
 import "./Header.css";
