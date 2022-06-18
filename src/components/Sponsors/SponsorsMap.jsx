@@ -30,25 +30,27 @@ function Sponsors({title,imageUrl}) {
     <div  className='flex  lg:flex-row md:flex-col sm:flex-col md:w-[100vw] sm:w-[100vw] lg:w-[100vw] gap-[10vh] md:gap[5vh] overflow-hidden'>
         <div className='flex flex-col w-[50vh] lg:basis-1/4 md:1/5 relative font-sans'>
             <div>
-                <h1 className=' text-white lg:text-[45px] mb-[60px] md:text-[40px] sm:text-[40px] font-medium'>
+                <h1 className=' text-white lg:text-[45px] mb-[20px] md:text-[40px] sm:text-[40px] font-medium'>
                 Sponsors
             </h1>
             </div>
             
             
-            <div style={{backgroundImage: `linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%`}} className='relative h-[5px] w-[100%] '></div>
+            <div style={{backgroundImage: `linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%`}} className='relative rounded-md h-[5px] w-[100%] '></div>
             <div>
-                <h2 className='text-white lg:text-[45px] md:text-[40px] sm:text-[40px] w-[50%] leading-[50px] font-medium'>
+                <h2 className='text-slate-100 text-3xl leading-[50px] font-medium'>
                     {title}
                 </h2>
             </div>
         </div>
         <div id='gridItems' className=' lg:basis-3/5 md:basis-2/6 align-middle  items-start lg:max-w-[60vw] sm:max-w-[500px] md:max-w-[80vw]   text-centers'>
-           <div className='grid grid-cols-3  gap-[30px] md:gap-[10px] lg:my-10 mx-10 md:my-[0px]'>
+           <div className='grid grid-cols-3  gap-[30px] md:gap-[10px] lg:my-10 md:my-[0px]'>
                 {imageUrl.map(image=>(
-                    <div className=' border-solid border-white border-[3px] rounded-[3vh] '>
+                    <div className='flex m-5 w-[200px] justify-center items-center border-solid border-white border-[3px] rounded-[3vh] '>
+                      <p className="text-slate-100">To be Announced..</p>
                     <img src={imageUrl} className='block my-[25%]  mx-[10%] align-middle justify-center items-center' alt="" />
                     </div>
+                  
                 ))
                 }
            </div>

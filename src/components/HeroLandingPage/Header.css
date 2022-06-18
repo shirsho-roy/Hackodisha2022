@@ -1,12 +1,18 @@
 
+
+.LandingPage{
+    background-image: url(../../assets/LandingPageSVG.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #navigation-container {
     position: relative;
-    background:linear-gradient(180deg, rgba(97, 97, 97, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    /* background:linear-gradient(180deg, rgba(97, 97, 97, 0.5) 0%, rgba(0, 0, 0, 0) 100%); */
     display: flex;
     flex-direction: row;
     justify-content: space-between; /*Space between 2 elements of nav*/
-    z-index: -1;
-    height:13.5rem;
+    /* z-index: -1; */
+    height:120px;
     align-items: center;
 }
 .hamburger{
@@ -17,11 +23,15 @@
     cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
-.Logo{
+.logo{
     margin-left:155px;
     /* margin-top: 85px; */
 }
 
+.logo a img {
+    width: 80px; 
+    height: 80px; 
+}
 .nav-menu ul {
     display: flex;
     flex-direction: row;
@@ -94,7 +104,8 @@ width: 60%;
         margin-right: 40px;
         font-size: 40px;
         position: absolute;
-        left:90%;
+        right: 0;
+        top: 15px;  
     }
     .w-nav-menu{
         grid-column: 2/4;
@@ -102,10 +113,10 @@ width: 60%;
         z-index: 99;
     }
     .w-nav-menu{
-        background:linear-gradient(180deg, rgba(97, 97, 97, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+        background: black; 
         display: block;
        position: absolute;
-       top:240px;
+       top:100px;
        left: 0;
        display: flex;
        flex-direction: column;
@@ -130,4 +141,19 @@ width: 60%;
            transition: all 0.5s linear;
            color: #FFFFFF;
        }
+}
+
+@media screen and (max-width: 768px) {
+    #navigation-container{
+        height: 88px; 
+    }
+
+    .logo {
+        margin-left: 18px;
+    }
+
+    .logo a img {
+        width: 60px; 
+        height: 60px; 
+    }
 }

@@ -49,7 +49,7 @@ function Sponsers() {
       transition: "0s",
       scrollTrigger: {
         trigger: '#footer',
-        start: 'top bottom',
+        start: 'top',
       }
     });
   })
