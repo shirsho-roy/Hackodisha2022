@@ -5,7 +5,7 @@ import {faInstagram,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <>
-    <div className="flex flex-col justify-evenly bg-slate-900 text-white md:flex-row lg:pt-10 ">
+    <div id='footer' className="flex flex-col justify-evenly bg-slate-900 text-white md:flex-row lg:pt-10 ">
 
     <div className='flex flex-col sm:flex-row justify-evenly md:w-4/6'>
     <div className='flex justify-evenly md:justify-evenly  md:pl-5 md:pr-5
