@@ -6,17 +6,18 @@ const Button = styled.a`
     width:max-content;
     display: inline-block;
     color: #FFFFFF;
-    padding: 1rem 2.5rem;
+    padding: 5px 2.5rem;
     cursor:pointer;
     border: 2px solid #FFFFFF;
     border-radius: 60px;
     text-decoration: none;
     z-index: 1;
   }
-@media screen and (max-width: 479px)
-.button {
+@media screen and (max-width: 479px) {
+  .button {
     width: 100%;
     max-width: 250px;
+}
 }
 `
 
