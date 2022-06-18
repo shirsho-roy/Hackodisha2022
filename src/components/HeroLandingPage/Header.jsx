@@ -52,7 +52,7 @@ const Header = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Sponsor Us
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -60,7 +60,7 @@ const Header = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Join Us
                   </a>
                 </div>
               </div>
