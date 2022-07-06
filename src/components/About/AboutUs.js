@@ -1,5 +1,10 @@
 import React from "react";
-
+import AboutUsSVG from "../../assets/AboutUsSVG.svg";
+const style = {
+  AboutUsSVG: {
+    backgroundImage: `url('${AboutUsSVG}')`,
+  },
+};
 export default function About() {
   return (
     <div className="bg-gradient-to-t from-gray-900 to-[#1d072f]  w-[100%]">
