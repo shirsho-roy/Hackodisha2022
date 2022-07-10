@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-#navigation-container {
+.navigation-container {
     position: relative;
     /* background:linear-gradient(180deg, rgba(97, 97, 97, 0.5) 0%, rgba(0, 0, 0, 0) 100%); */
     display: flex;
@@ -15,6 +15,7 @@
     height:120px;
     align-items: center;
 }
+
 .hamburger{
     display: none;
     height: 40px;
@@ -23,11 +24,30 @@
     cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
-.logo{
-    margin-left:155px;
-    /* margin-top: 85px; */
+.cross{
+    display: none;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
-
+.disp{
+    display: none;
+}
+.Hide{display: none;}
+.logo{
+    margin-left:150px;
+    margin-top: 8px;
+}
+.Hidex{
+    margin-left:150px;
+    margin-top: 8px;
+    align-items: center;
+}
+.logowritten{
+    display: none;
+   }
 .logo a img {
     width: 80px; 
     height: 80px; 
@@ -82,30 +102,91 @@ width: 60%;
     margin-top: 1.625rem;
     margin-bottom: 1.625rem;
 }
-
-@media screen and (max-width: 1053px){
+@media screen and (max-width:1053px){
+    .nav-menu>ul>li>a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 5px 15px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .disp>li>a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        padding: 5px 15px;
+        z-index: 1;
+        cursor: pointer; 
+    }
+}
+@media screen and (max-width: 700px){
     /* #navigation-container{
         height:13rem;
         background:linear-gradient(180deg, rgba(97, 97, 97, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
         grid-template-columns: 2rem 3fr 3fr  2rem;
     } */
-    .Logo{
+    .Hide{
+        display: none;
+    }
+    .Hidex{
+        display: none;
+    }
+    .logo{
         align-items: center;
     }
     .nav-menu {
         display: none;
     }
-   
+    .hide{display: none;
+    }
+   .nav-cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*Space between 2 elements of nav*/
+    /* z-index: -1; */
+    height:140px;
+    background-color: black;
+    align-items: center;
+   }
+   .logowritten{
+    display: inline-block;
+    align-items:center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 3rem;
+   }
+   /* .logohidden{
+    display: none;
+   } */
     .hamburger{
         display: inline-block;
         transition: all 0.5s linear;
         color: #FFFFFF;
         cursor: pointer;
-        margin-right: 40px;
-        font-size: 40px;
+        margin-right: 34px;
+        font-size: 38px;
         position: absolute;
         right: 0;
-        top: 15px;  
+        top: 28px; 
+        align-items: center; 
+    }
+    .cross{
+        display: inline-block;
+        transition: all 0.5s linear;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-right: 34px; 
+        font-size: 36px;
+        position: absolute;
+        right: 0;
+        top: 26px; 
+        align-items: center; 
     }
     .w-nav-menu{
         grid-column: 2/4;
@@ -121,35 +202,54 @@ width: 60%;
        display: flex;
        flex-direction: column;
        width: 100%;
-       height: calc(100vh - 77px);
+       height:  calc(100vh - 77px);
       /* border-top: 1px solid black; */
        color:#ffffff;
-       text-align: left;
+       /* text-align:center; */
+       align-items: center;
        transition: all 0.5s linear;
        z-index: 1;
        }
        .w-nav-menu ul{
+        margin-left: 32px;
         height: 20rem;
        display: flex;
        justify-content: space-around;
        flex-direction: column;
-       align-items: start;
+       align-items:center;
+       }
+       .disp{
+        /* margin-left: 32px; */
+        height: 20rem;
+       display: flex;
+       flex-direction: column;
+       justify-content:flex-start;
+       align-items:center;
        }
        .w-nav-menu>li> a{
-           margin: 0;
+           margin: 5px;
+           align-items: center;
            text-align: left;
            transition: all 0.5s linear;
            color: #FFFFFF;
        }
+       .disp>li>a{
+        margin: 5px;
+        align-items: center;
+        text-align: left;
+        transition: all 0.5s linear;
+        color: #FFFFFF;
+       }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 828px) {
     #navigation-container{
-        height: 88px; 
+        height: 100px; 
     }
 
     .logo {
-        margin-left: 18px;
+        margin-left: 12px;
+        margin-top: 5px;
     }
 
     .logo a img {
