@@ -4,31 +4,44 @@ import Button from '../Buttons/Button';
 import Button2 from '../Buttons/Button2';
 import "./Header.css";
 import {GiHamburgerMenu} from 'react-icons/gi';
+import {ImCross} from 'react-icons/im';
 import { useState } from "react";
 
 // import LandingPageSVG from '../../assets/LandingPageSVG.svg'; 
 
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [navContExpanded,setNavContExpanded]=useState(false);
   return (
     <section className="LandingPage container-center-horizontal md:h-screen pb-10" >
-         <div className="overlap-group-container">
-         <div id="navigation-container">
-           <div className="logo">
-           <a href="#"> <img src={Logo} alt="No img"/></a>
+         <div className="overlap-group-container"> 
+         <div className={navContExpanded?"nav-cont2 navigation-container":"nav3 navigation-container"}>
+           <div className={isNavExpanded?"Hidex":"logo"}>
+           <a href="#"> <img src={Logo} alt="No img" height="80px" width="80px"/></a>
            </div>
+           <h2 className={isNavExpanded?"logowritten":'Hide'}>HackOdisha 2.0</h2>
       <div className={isNavExpanded ?"nav-menu w-nav-menu" :"nav-menu"}>
       <ul>
        <li><a href="#">Home</a></li>
        <li> <a href="#">About</a></li>
        <li> <a href="#">Events</a></li>
        <li> <a href="#">Contact Us</a></li>
+       <div className={isNavExpanded?'disp':'Hide'}>
+       <li> <a href="#">Tracks</a></li>
+       <li> <a href="#">Sponsors</a></li>
+       <li> <a href="#">FAQs</a></li>
+       </div>
        <li><a href="#"><Button>Register</Button></a></li>
       </ul>
       </div>
-      <a className='hamburger absolute' onClick={() => {
+      <a className={isNavExpanded?'Hide':"hamburger absolute"} onClick={() => {
+          setNavContExpanded(!navContExpanded);
           setIsNavExpanded(!isNavExpanded);
         }}><GiHamburgerMenu/></a>
+      <a className={isNavExpanded?"cross absolute":"Hide"} onClick={() => {
+          setNavContExpanded(!navContExpanded);
+          setIsNavExpanded(!isNavExpanded);
+        }}><ImCross/></a>
     </div>
            {/* <div className='head-main'>
             <p className='text1'>Lorem ipsum dolor</p>
