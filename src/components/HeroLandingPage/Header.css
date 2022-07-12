@@ -1,4 +1,6 @@
-
+.fontx{
+    font-size: 64px;
+}
 
 .LandingPage{
     background-image: url(../../assets/LandingPageSVG.svg);
@@ -157,7 +159,7 @@ width: 60%;
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
-    font-size: larger;
+    font-size: 26px;
     text-align: center;
     padding-bottom: 3rem;
    }
@@ -176,6 +178,7 @@ width: 60%;
         top: 28px; 
         align-items: center; 
     }
+    
     .cross{
         display: inline-block;
         transition: all 0.5s linear;
@@ -187,6 +190,7 @@ width: 60%;
         right: 0;
         top: 26px; 
         align-items: center; 
+        cursor: pointer;
     }
     .w-nav-menu{
         grid-column: 2/4;
@@ -209,6 +213,10 @@ width: 60%;
        align-items: center;
        transition: all 0.5s linear;
        z-index: 1;
+       -webkit-transition: .5s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .25s ease-in-out;
        }
        .w-nav-menu ul{
         margin-left: 32px;

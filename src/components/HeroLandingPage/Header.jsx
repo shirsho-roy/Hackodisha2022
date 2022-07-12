@@ -3,9 +3,10 @@ import Logo from '../../assets/g2700.png';
 import Button from '../Buttons/Button';
 import Button2 from '../Buttons/Button2';
 import "./Header.css";
-import {GiHamburgerMenu} from 'react-icons/gi';
+// import {GiHamburgerMenu} from 'react-icons/gi';
 import {ImCross} from 'react-icons/im';
 import { useState } from "react";
+import Hamburger from 'hamburger-react'
 
 // import LandingPageSVG from '../../assets/LandingPageSVG.svg'; 
 
@@ -34,14 +35,14 @@ const Header = () => {
        <li><a href="#"><Button>Register</Button></a></li>
       </ul>
       </div>
-      <a className={isNavExpanded?'Hide':"hamburger absolute"} onClick={() => {
+      <a className="hamburger open absolute" onClick={() => {
           setNavContExpanded(!navContExpanded);
           setIsNavExpanded(!isNavExpanded);
-        }}><GiHamburgerMenu/></a>
-      <a className={isNavExpanded?"cross absolute":"Hide"} onClick={() => {
+        }}><Hamburger/></a>
+      {/* <a className={isNavExpanded?"cross absolute":"Hide"} onClick={() => {
           setNavContExpanded(!navContExpanded);
           setIsNavExpanded(!isNavExpanded);
-        }}><ImCross/></a>
+        }}><ImCross/></a> */}
     </div>
            {/* <div className='head-main'>
             <p className='text1'>Lorem ipsum dolor</p>
@@ -51,9 +52,9 @@ const Header = () => {
 
 <main className="mt-10 mx-auto lg:ml-32 max-w-[800px] px-4 sm:mt-12 sm:px-6 md:mt-16 lg:px-8">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{' '}
-                <span className="block text-[#05893d] xl:inline">online business</span>
+              <h1 className="text-6xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
+                <span className="block fontx inline">Data to enrich your</span>{' '}
+                <span className="block text-[#05893d]  xl:inline">online business</span>
               </h1>
               <p className="mt-3 text-base text-slate-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
