@@ -7,6 +7,7 @@ function SponsorsMobile() {
         <Parts text={"Platinum Sponsors"}></Parts>
         <Parts text={"Gold Sponsors"}></Parts>
         <Parts text={"Silver Sponsors"}></Parts>
+        <Parts text={"Bronze Sponsors"}></Parts>
         <Parts text={"Partners"}></Parts>
     </div>
   )
