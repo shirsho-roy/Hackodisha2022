@@ -7,6 +7,7 @@ const style = {
 };
 export default function About() {
   return (
+    <secion id="About">
     <div className="bg-gradient-to-t from-gray-900 to-[#1d072f]  w-[100%]">
       <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-40 mb-12 text-white tracking-normal font-medium">
         About Us
@@ -29,5 +30,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </secion>
   );
 }

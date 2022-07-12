@@ -16,6 +16,8 @@ const Header = () => {
   return (
     <section className="LandingPage container-center-horizontal md:h-screen pb-10" >
          <div className="overlap-group-container"> 
+      
+           
          <div className={navContExpanded?"nav-cont2 navigation-container":"nav3 navigation-container"}>
            <div className={isNavExpanded?"Hidex":"logo"}>
            <a href="#"> <img src={Logo} alt="No img" height="80px" width="80px"/></a>
@@ -25,14 +27,16 @@ const Header = () => {
       <ul>
        <li><a href="#">Home</a></li>
        <li> <a href="#">About</a></li>
-       <li> <a href="#">Events</a></li>
-       <li> <a href="#">Contact Us</a></li>
-       <div className={isNavExpanded?'disp':'Hide'}>
        <li> <a href="#">Tracks</a></li>
        <li> <a href="#">Sponsors</a></li>
+       <li> <a href="#">Schedule</a></li>
+       <li> <a href="#">Prizes</a></li>
+       <li> <a href="#">Events</a></li>
+       <li> <a href="#">Team</a></li>
+       {/* <div className={isNavExpanded?'disp':'Hide'}> */}
        <li> <a href="#">FAQs</a></li>
-       </div>
-       <li><a href="#"><Button>Register</Button></a></li>
+    
+      
       </ul>
       </div>
       <a className="hamburger open absolute" onClick={() => {
@@ -53,12 +57,11 @@ const Header = () => {
 <main className="mt-10 mx-auto lg:ml-32 max-w-[800px] px-4 sm:mt-12 sm:px-6 md:mt-16 lg:px-8">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-6xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
-                <span className="block fontx inline">Data to enrich your</span>{' '}
-                <span className="block text-[#05893d]  xl:inline">online business</span>
+                <span className="block fontx inline">HACK</span>{' '}
+                <span className="block text-[#05893d]  xl:inline">ODISHA 2.0</span>
               </h1>
               <p className="mt-3 text-base text-slate-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+              Take charge of your ideas and make a difference with real-life solutions for Odisha at HackOdisha 2.0.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -66,7 +69,7 @@ const Header = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Sponsor Us
+                   Register with Devfolio
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -74,7 +77,7 @@ const Header = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
                   >
-                    Join Us
+                    Join Us as Partner
                   </a>
                 </div>
               </div>
