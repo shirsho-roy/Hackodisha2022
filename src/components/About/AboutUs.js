@@ -20,14 +20,10 @@ export default function About() {
             faced by communities all over the world. This 36-hour-long event
             will bring together technocrats from all over the country. The
             problem statements are stimulating enough for programmers who love
-            solving mind-bending problems. We look forward to connecting with
-            the participants and hope they enjoy their journey to this Eden of
-            coding. After the success of the first season of HackOdisha, Webwiz
-            is proud to host the greater-than-ever HackOdisha 2.0 Webwiz is not
-            just any other technical club. Our mission is to join creative minds
+            solving mind-bending problems. Our mission is to join creative minds
             with technical skills to come up with innovative ways of using
             sponsors’ technologies to develop innovative solutions to solve
-            important real-world problems. Therefore, the hackathon is open to
+            important real-world problems. The hackathon is open to
             experts as well as beginners because abstractions are equally
             important as implementations.
           </p>
