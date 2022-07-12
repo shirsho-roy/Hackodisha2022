@@ -77,6 +77,12 @@
 }
 .nav-menu>ul>li>a:hover{
     border-bottom:3px solid rgb(255, 255, 255);
+    opacity: 0.8;
+    transition: .45s ease-in-out;
+    transition: 100ms;
+}
+.nav-menu>ul>li>a:hover::after{
+    transition: .75s ease-in-out;
 }
 li {
     display: flex;
@@ -110,7 +116,7 @@ width: 60%;
     margin-bottom: 1.625rem;
 }
 @media screen and (max-width:1173px){
-  
+   
     .nav-menu>ul>li>a {
         text-decoration: none;
         color: #FFFFFF;
@@ -119,6 +125,7 @@ width: 60%;
         padding: 5px 15px;
         z-index: 1;
         cursor: pointer;
+        transition: 0.8s all ease;
     }
     .disp>li>a{
         text-decoration: none;
@@ -162,6 +169,7 @@ width: 60%;
     position: fixed;
     width: 100%;
     top: 0;
+    /* transition: 0.8s all ease; */
    }
    .logowritten{
     display: inline-block;
@@ -209,6 +217,7 @@ width: 60%;
     }
     .w-nav-menu{
         background: black; 
+        opacity: 0.9;
         display: block;
        position: absolute;
        top:100px;
