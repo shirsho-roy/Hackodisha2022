@@ -1,18 +1,17 @@
 import React from "react";
-import AboutUsSVG from "../../assets/AboutUsSVG.svg";
-const style = {
-  AboutUsSVG: {
-    backgroundImage: `url('${AboutUsSVG}')`,
-  },
-};
+
 export default function About() {
   return (
-    <div className="bg-gradient-to-t from-gray-900 to-[#1d072f]  w-[100%]">
+    <div className="  w-[100%]">
       <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-20 mb-12 text-white tracking-normal font-medium">
         About Us
       </div>
       <div className="lg:flex pb-4 ">
-        <div className="border-[3px] border-white rounded-2xl  h-[20vh] sm:h-[40vh] xl:h-[40vh] mb-[10%] w-[70%] lg:w-[40%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-20"></div>
+        <img
+          src="https://res.cloudinary.com/ash123/image/upload/v1657645160/HackOdisha2022/AboutUsImg_jlahdm.jpg"
+          alt="HackOdisha2022"
+          className="h-[20vh] sm:h-[40vh] xl:h-[40vh] mb-[10%] w-[70%] lg:w-[40%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-20"
+        />
         <div className=" px-[10%] lg:pl-[2%] lg:pr-0 lg:w-[50%] lg:mr-2 ">
           <p className="font-sans lg:w-[90%]  text-sm md:text-lg lg:text-2xl text-white leading-4">
             Welcome to HackOdisha 2.0, a hackathon that aims to bring creatives
