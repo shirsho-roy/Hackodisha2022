@@ -18,7 +18,13 @@ export default[
         Sponsors:["","","","","",""]
     },
     {
-        key:"panel four",
+        key:"panel three",
+        title:'Bronze Sponsors',
+        imageUrl :["","","","","",""],
+        Sponsors:["","","","","",""]
+    },
+    {
+        key:"panel five",
         title:'Partners',
         imageUrl :["","","","","",""],
         Sponsors:["","","","","",""]
