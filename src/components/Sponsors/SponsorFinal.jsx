@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from "react";
 import SponsorsMap from "./SponsorsMap";
 import { gsap } from "gsap";
+
 function Scroller() {
   const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
@@ -10,10 +11,10 @@ function Scroller() {
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
       let PageSize = height / 14;
-      if (winScroll > 8 * PageSize) {
-        winScroll -= 8 * PageSize;
+      if (winScroll > 7 * PageSize) {
+        winScroll -= 7 * PageSize;
       }
-      height = 4 * PageSize;
+      height = 5 * PageSize;
       console.log(winScroll);
       console.log(height);
       const scrolled = (winScroll / height) * 100;
@@ -58,7 +59,6 @@ function Sponsers() {
   });
   return (
     <div>
-      <div></div>
       <div className="">
         <div>
           <div id="Sponser" className="">
@@ -74,18 +74,28 @@ function Sponsers() {
                 className="bg-white h-[20px]  border-[3px]  "
               ></div>
             </div>
-            <div
-              style={{}}
-              className="lg:flex hidden flex-row items-end text-white text-xl"
-            >
-              <p className=" basis-1/5">Platinum Sponsors</p>
-              <p className=" basis-1/5">Gold Sponsors</p>
-              <p className=" basis-1/5">Silver Sponsors</p>
-              <p className=" basis-1/5">Bronze Sponsors</p>
-              <p className=" basis-1/5">Partners</p>
-            </div>
+          </div>
+          <div
+            style={{}}
+            className="lg:flex hidden flex-row items-end text-white text-xl"
+          >
+            <p className=" basis-1/5">Platinum Sponsors</p>
+            <p className=" basis-1/5">Gold Sponsors</p>
+            <p className=" basis-1/5">Silver Sponsors</p>
+            <p className=" basis-1/5">Bronze Sponsors</p>
+            <p className=" basis-1/5">Partners</p>
           </div>
         </div>
+      </div>
+      <div
+        style={{}}
+        className="lg:flex hidden flex-row items-end text-white text-xl"
+      >
+        <p className=" basis-1/5">Platinum Sponsors</p>
+        <p className=" basis-1/5">Gold Sponsors</p>
+        <p className=" basis-1/5">Silver Sponsors</p>
+        <p className=" basis-1/5">Bronze Sponsors</p>
+        <p className=" basis-1/5">Partners</p>
       </div>
     </div>
   );

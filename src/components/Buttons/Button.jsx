@@ -16,7 +16,7 @@ const Button = styled.a`
 @media screen and (max-width: 479px) {
   .button {
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
 }
 }
 `
