@@ -1,23 +1,21 @@
 import React from "react";
-import AboutUsSVG from "../../assets/AboutUsSVG.svg";
-import './AboutUs.css';
-const style = {
-  AboutUsSVG: {
-    backgroundImage: `url('${AboutUsSVG}')`,
-  },
-};
+import "./AboutUs.css";
+
 export default function About() {
   return (
-    
-    <secion id="About">
-    <div className="container   w-[100%]">
+    <section id="About">
+    <div className="AboutUs container w-[100%]">
       <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-20 mb-12 text-white tracking-normal font-medium">
         About Us
       </div>
       <div className="lg:flex pb-4 ">
-        <div className="border-[3px] border-white rounded-2xl  h-[20vh] sm:h-[40vh] xl:h-[40vh] mb-[10%] w-[70%] lg:w-[40%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-20"></div>
+        <img
+          src="https://res.cloudinary.com/ash123/image/upload/v1657686843/HackOdisha2022/AboutUsImg_jlahdm-removebg-preview_fttq1j.png"
+          alt="HackOdisha2022"
+          className="h-[20vh] sm:h-[35vh] xl:h-[45vh] mb-[10%] w-[70%] lg:w-[50%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-12"
+        />
         <div className=" px-[10%] lg:pl-[2%] lg:pr-0 lg:w-[50%] lg:mr-2 ">
-          <p className="font-sans lg:w-[90%]  text-sm md:text-lg lg:text-2xl text-white leading-4">
+          <p className="font-sans lg:w-[90%]  text-sm md:text-xl lg:text-2xl text-white leading-4">
             Welcome to HackOdisha 2.0, a hackathon that aims to bring creatives
             and developers together to solve some of the most pressing problems
             faced by communities all over the world. This 36-hour-long event
@@ -26,9 +24,9 @@ export default function About() {
             solving mind-bending problems. Our mission is to join creative minds
             with technical skills to come up with innovative ways of using
             sponsors’ technologies to develop innovative solutions to solve
-            important real-world problems. The hackathon is open to
-            experts as well as beginners because abstractions are equally
-            important as implementations.
+            important real-world problems. The hackathon is open to experts as
+            well as beginners because abstractions are equally important as
+            implementations.
           </p>
           <button
             type="button"
@@ -39,6 +37,6 @@ export default function About() {
         </div>
       </div>
     </div>
-    </secion>
+    </section>
   );
 }
