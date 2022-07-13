@@ -9,10 +9,13 @@ function Scroller() {
       let height =
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
-      if (winScroll > 1950) {
-        winScroll -= 1950;
+      let PageSize = height / 14;
+      if (winScroll > 8 * PageSize) {
+        winScroll -= 8 * PageSize;
       }
-      height = 1270;
+      height = 4 * PageSize;
+      console.log(winScroll);
+      console.log(height);
       const scrolled = (winScroll / height) * 100;
       setScrollTop(scrolled);
     };
@@ -57,11 +60,7 @@ function Sponsers() {
     <div>
       <div></div>
       <div className="">
-        <div
-          style={{
-            backgroundImage: `linear-gradient(108.09deg, #310563 0%, #0E001A 40.01%)`,
-          }}
-        >
+        <div>
           <div id="Sponser" className="">
             <SponsorsMap></SponsorsMap>
           </div>
@@ -79,10 +78,11 @@ function Sponsers() {
               style={{}}
               className="lg:flex hidden flex-row items-end text-white text-xl"
             >
-              <p className=" basis-1/4">Platinum Sponsors</p>
-              <p className=" basis-1/4">Gold Sponsors</p>
-              <p className=" basis-1/4">Silver Sponsors</p>
-              <p className=" basis-1/4">Partners</p>
+              <p className=" basis-1/5">Platinum Sponsors</p>
+              <p className=" basis-1/5">Gold Sponsors</p>
+              <p className=" basis-1/5">Silver Sponsors</p>
+              <p className=" basis-1/5">Bronze Sponsors</p>
+              <p className=" basis-1/5">Partners</p>
             </div>
           </div>
         </div>
