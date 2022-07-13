@@ -1,8 +1,10 @@
 import React from 'react'
 
 function Stats(){
-  return(<div id='stats' style={{backgroundImage:`linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, #000000 100%)`}}>
-    <section className='text-white text-2xl font-bold'>  
+  return(
+    <section id='Stats'>
+  <div className='container'>
+    <div className='text-white text-2xl font-bold'>  
     <h1 className='mx-16 py-10 mb-4 text-4xl font-normal'>HackOdisha 1.0 Statistics</h1>
     <div className='grid grid-cols-2 md:grid-cols-3'>
     <div className='flex flex-col items-center'>   
@@ -39,8 +41,9 @@ function Stats(){
     <div className='flex justify-end mr-16 py-10'>
     <a href="https://hackodisha.netlify.app/" target="_blank"><i className='text-2xl'><u>Go to HackOdisha 1.0{'>'}</u></i></a>
     </div>
-   </section>
    </div>
+   </div>
+   </section>
   )
 }
 

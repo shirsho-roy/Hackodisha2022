@@ -3,10 +3,10 @@
 }
 
 .LandingPage{
-    background-image: url(../../assets/bg-regular.svg);
+    /* background-image: url(../../assets/bg-regular.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100%; */
 }
 .navigation-container {
     position: relative;

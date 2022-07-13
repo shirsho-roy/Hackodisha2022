@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUsSVG from "../../assets/AboutUsSVG.svg";
+import './AboutUs.css';
 const style = {
   AboutUsSVG: {
     backgroundImage: `url('${AboutUsSVG}')`,
@@ -7,8 +8,9 @@ const style = {
 };
 export default function About() {
   return (
+    
     <secion id="About">
-    <div className="bg-gradient-to-t from-gray-900 to-[#1d072f]  w-[100%]">
+    <div className="container   w-[100%]">
       <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-20 mb-12 text-white tracking-normal font-medium">
         About Us
       </div>
