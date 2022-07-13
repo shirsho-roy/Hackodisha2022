@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
 
-    <div  >
+    <div className='overflow-hidden' >
       <div className='relative z-10 xl:mt-[-7vh]'>
         <img src={background} className='hidden xl:block' />
       </div>
@@ -29,8 +29,8 @@ const Footer = () => {
           <a className=' hover:text-gray-300 hover:cursor-pointer'>Event</a>
           <a className=' hover:text-gray-300 hover:cursor-pointer'>ContactUs</a>
           <div className='flex mt-1  mr-2'>
-          <a className='mr-4 cursor-pointer'><FontAwesomeIcon icon={faInstagram} size="lg"/></a>
-          <a className='cursor-pointer'><FontAwesomeIcon icon={faLinkedin} size="lg"/></a>
+          <a className='mr-4 cursor-pointer'><FontAwesomeIcon icon={faInstagram} size="xl"/></a>
+          <a className='cursor-pointer'><FontAwesomeIcon icon={faLinkedin} size="xl"/></a>
           </div>
           
         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
     
     <div className="flex flex-col items-center pb-10 pr-8 ml-4 md:pl-10  md:w-2/5 md:pt-16 lg:pt-4">
         <div className='text-3xl text-white mb-4  text-center'>Want to become a sponsor of Hackodisha 2.0?</div>
-        <button type='button ' className='cursor-pointer rounded-3xl ring ring-white p-3 lg:p-1 text-xl w-64 sm:w-80 md:w-64 lg:w-80 md:mt-6 lg:mt-10 hover:text-gray-300' >
+        <button type='button ' className='cursor-pointer rounded-3xl ring ring-white p-3 lg:p-1 text-xl w-64 sm:w-80 md:w-64 lg:w-80 md:mt-6 lg:mt-10 hover:text-gray-300  hover:ring-gray-400'>
             Become a sponsor
             </button> 
 
