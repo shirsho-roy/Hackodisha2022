@@ -10,32 +10,32 @@ function Stats(){
     <div className='flex flex-col items-center'>   
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657650744/user_gvypf7.png" alt="participants"></img>
         <h3 className='mt-6'>1600+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Registrations</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Registrations</p>
     </div>
     <div className='flex flex-col items-center'>
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657650820/college_nnemrn.png" alt="Institutions"></img>
         <h3 className='mt-6'>20+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Institutions</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Institutions</p>
     </div>
     <div className='flex flex-col items-center'>    
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657650980/sponsor_c9qjhd.png" alt="Sponsors"></img>
         <h3 className='mt-2'>50+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Sponsors</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Sponsors</p>
     </div>
     <div className='flex flex-col items-center'>
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657651549/community_nlklrw.png" alt="Community Members"></img>
         <h3 className='mt-6'>30+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Communities</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Communities</p>
     </div>
     <div className='flex flex-col items-center '>
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657651614/seminar_fyw01m.png" alt="Seminars"></img>
         <h3 className='mt-6'>10+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Seminars</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Seminars</p>
     </div>
     <div className='flex flex-col items-center'>    
         <img src="https://res.cloudinary.com/dzbax077h/image/upload/v1657651663/network_l2chpg.png" alt="Network"></img>
         <h3 className='mt-6'>10+</h3>
-        <p className='mb-8 md:mt-4 md:mb-8'>Partners</p>
+        <p className='mb-6 md:mt-4 md:mb-8'>Partners</p>
     </div>
     </div>
     <div className='flex justify-end mr-16 py-10'>

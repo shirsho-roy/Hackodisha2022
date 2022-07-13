@@ -38,7 +38,7 @@ function Sponsors({title}) {
     <Style>
     <div className={cn("panel")}>
     <div  className=' justify-center md:w-[100vw] sm:w-[100vw] lg:w-[100vw] gap-[10vh] md:gap[5vh] overflow-hidden'>
-    <div id='blureffect' className='flex  lg:flex-row md:flex-col sm:flex-col  h-[80vh] w-[80vw] '>
+    <div id='blureffect' className='flex  lg:flex-row md:flex-col sm:flex-col  h-[80vh] w-[90vw] '>
         <div  className='flex flex-col m-[5%]  lg:basis-1/4 md:1/5 relative font-sans'>
             <div>
                 <h1 className=' text-white lg:text-[45px] mb-[20px] md:text-[40px] sm:text-[40px] font-medium'>
