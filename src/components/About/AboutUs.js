@@ -3,7 +3,8 @@ import "./AboutUs.css";
 
 export default function About() {
   return (
-    <div className="AboutUs w-[100%]">
+    <section id="About">
+    <div className="AboutUs container w-[100%]">
       <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-20 mb-12 text-white tracking-normal font-medium">
         About Us
       </div>
@@ -11,7 +12,7 @@ export default function About() {
         <img
           src="https://res.cloudinary.com/ash123/image/upload/v1657686843/HackOdisha2022/AboutUsImg_jlahdm-removebg-preview_fttq1j.png"
           alt="HackOdisha2022"
-          className="h-[20vh] sm:h-[35vh] xl:h-[45vh] mb-[10%] w-[70%] lg:w-[40%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-20"
+          className="h-[20vh] sm:h-[35vh] xl:h-[45vh] mb-[10%] w-[70%] lg:w-[50%] xl:w-[35%] mx-[10%] lg:ml-36 lg:mr-12"
         />
         <div className=" px-[10%] lg:pl-[2%] lg:pr-0 lg:w-[50%] lg:mr-2 ">
           <p className="font-sans lg:w-[90%]  text-sm md:text-xl lg:text-2xl text-white leading-4">
@@ -36,5 +37,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

@@ -6,10 +6,12 @@ import SponserFinal from "./components/Sponsors/SponsorFinal";
 import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
-
+import './App.css';
 function App() {
+  
   return (
-    <div>
+   
+    <div  className="App" >
       <Header />
       <About />
       <Stats />
@@ -19,6 +21,7 @@ function App() {
       <SponserFinal/>
       <Footer />
     </div>
+    
   );
 }
 

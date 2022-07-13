@@ -26,12 +26,12 @@ const Header = () => {
       <div className={isNavExpanded ?"nav-menu w-nav-menu" :"nav-menu"}>
       <ul>
        <li><a href="#">Home</a></li>
-       <li> <a href="#">About</a></li>
-       <li> <a href="#">Tracks</a></li>
-       <li> <a href="#">Sponsors</a></li>
-       <li> <a href="#">Schedule</a></li>
-       <li> <a href="#">Prizes</a></li>
-       <li> <a href="#">Events</a></li>
+       <li> <a href="#About">About</a></li>
+       <li> <a href="#Stats">Statistics</a></li>
+       <li> <a href="#Tracks">Tracks</a></li>
+       <li> <a href="#Sponsors">Sponsors</a></li>
+       <li> <a href="#Prizes">Prizes</a></li>
+       <li> <a href="#Timeline">Events</a></li>
        <li> <a href="#">Team</a></li>
        {/* <div className={isNavExpanded?'disp':'Hide'}> */}
        <li> <a href="#">FAQs</a></li>

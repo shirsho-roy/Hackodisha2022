@@ -92,7 +92,7 @@ function Sponsers() {
 }
 function SponserFinal() {
   return (
-    <div className="max-w-[100vw]">
+    <div id="Sponsors" className="max-w-[100vw]">
       <Sponsers></Sponsers>
     </div>
   );

@@ -7,7 +7,7 @@ import background from '../../assets/backgroundfooter.svg'
 const Footer = () => {
 
   return (
-
+    
     <div className='overflow-hidden' >
       <div className='relative z-10 xl:mt-[-7vh]'>
         <img src={background} className='hidden xl:block' />
