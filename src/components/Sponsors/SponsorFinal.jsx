@@ -63,7 +63,6 @@ function Sponsers() {
 
 
     </div>
-    <div className=''>
       <div  >
         <div id='Sponser' className=''>
         <SponsorsMap></SponsorsMap>
