@@ -72,7 +72,7 @@ const Header = () => {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow h-11 w-80">
-                    <div className='apply-button h-11 w-80' data-hackathon-slug="hackodisha.devfolio.co" data-button-theme="light" style={{"height": "44px", "width": "312px"}}></div>
+                    <div className='apply-button h-11 w-80' data-hackathon-slug="hackodisha2022" data-button-theme="light" style={{"height": "44px", "width": "312px"}}></div>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
