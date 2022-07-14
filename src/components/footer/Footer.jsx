@@ -10,7 +10,7 @@ const Footer = () => {
     
     <div className='overflow-hidden' >
       <div className='relative z-10 xl:mt-[-7vh]'>
-        <img src={background} className='hidden xl:block' />
+        <img alt="background" src={background} className='hidden xl:block' />
       </div>
       <div className='xl:mt-[-86vh] relative z-40 bg-black xl:bg-transparent'>
     <div id='footer' className="flex flex-col justify-evenly text-white md:flex-row  xl:mt-40 lg:pt-10"
@@ -24,10 +24,10 @@ const Footer = () => {
         
         <div className='flex flex-col text-white text-md  mb-12 text-lg pr-16 md:pr-3 lg:pr-8 items-start '>
           <h2 className='flex text-3xl pt-10 lg:pt-0  md:pr-4 '>SiteMap</h2>
-          <a className='pt-3  hover:text-gray-300 hover:cursor-pointer'>Home</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer'>About</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer'>Event</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer'>ContactUs</a>
+          <a className='pt-3  hover:text-gray-300 hover:cursor-pointer' href='#'>Home</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href="#about">About</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href="#event">Event</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href='mailto:webwix.nitrkl@gmail.com'>ContactUs</a>
           <div className='flex mt-1  mr-2'>
           <a className='mr-4 cursor-pointer'><FontAwesomeIcon icon={faInstagram} size="xl"/></a>
           <a className='cursor-pointer'><FontAwesomeIcon icon={faLinkedin} size="xl"/></a>
@@ -42,7 +42,7 @@ const Footer = () => {
     </div>
 
     <div className='flex justify-center mb-12 pl-3  lg:pt-0 sm:pt-16'>
-        <img className=' h-48 lg:h-54 items-center' src={require('../../assets/g2700.png')}/>
+        <img alt="hackodisha" className=' h-48 lg:h-54 items-center' src={require('../../assets/g2700.png')}/>
     </div>
     </div>
     
