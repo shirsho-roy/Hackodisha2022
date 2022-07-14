@@ -39,7 +39,7 @@ function Stats(){
     </div>
     </div>
     <div className='flex justify-end mr-16 py-10'>
-    <a href="https://hackodisha.netlify.app/" target="_blank"><i className='text-2xl'><u>Go to HackOdisha 1.0{'>'}</u></i></a>
+    <a href="https://hackodisha.netlify.app/" rel="noreferrer" target="_blank"><i className='text-2xl'><u>Go to HackOdisha 1.0{'>'}</u></i></a>
     </div>
    </div>
    </div>

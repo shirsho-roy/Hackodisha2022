@@ -1,10 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/g2700.png';
-import Button from '../Buttons/Button';
-import Button2 from '../Buttons/Button2';
 import "./Header.css";
 // import {GiHamburgerMenu} from 'react-icons/gi';
-import {ImCross} from 'react-icons/im';
 import { useState } from "react";
 import Hamburger from 'hamburger-react'
 
@@ -13,6 +10,16 @@ import Hamburger from 'hamburger-react'
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [navContExpanded,setNavContExpanded]=useState(false);
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
   return (
     <section className="LandingPage container-center-horizontal md:h-screen pb-10" >
          <div className="overlap-group-container"> 
@@ -64,18 +71,13 @@ const Header = () => {
               Take charge of your ideas and make a difference with real-life solutions for Odisha at HackOdisha 2.0.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                  >
-                   Register with Devfolio
-                  </a>
+                <div className="rounded-md shadow h-11 w-80">
+                    <div className='apply-button h-11 w-80' data-hackathon-slug="hackodisha.devfolio.co" data-button-theme="light" style={{"height": "44px", "width": "312px"}}></div>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
+                    className="w-80 h-11 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
                   >
                     Join Us as Partner
                   </a>
