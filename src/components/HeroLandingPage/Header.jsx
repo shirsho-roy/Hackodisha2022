@@ -4,6 +4,7 @@ import "./Header.css";
 // import {GiHamburgerMenu} from 'react-icons/gi';
 import { useState } from "react";
 import Hamburger from 'hamburger-react'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // import LandingPageSVG from '../../assets/LandingPageSVG.svg'; 
 
@@ -21,7 +22,7 @@ const Header = () => {
     }
 }, []);
   return (
-    <section className="LandingPage container-center-horizontal md:h-screen pb-10" >
+    <section id="Home" className="LandingPage container-center-horizontal md:h-screen pb-10" >
          <div className="overlap-group-container"> 
       
            
@@ -32,16 +33,16 @@ const Header = () => {
            <h2 className={isNavExpanded?"logowritten":'Hide'}>HackOdisha 2.0</h2>
       <div className={isNavExpanded ?"nav-menu w-nav-menu" :"nav-menu"}>
       <ul>
-       <li><a href="#">Home</a></li>
-       <li> <a href="#About">About</a></li>
-       <li> <a href="#Stats">Statistics</a></li>
-       <li> <a href="#Tracks">Tracks</a></li>
-       <li> <a href="#Sponsors">Sponsors</a></li>
-       <li> <a href="#Prizes">Prizes</a></li>
-       <li> <a href="#Timeline">Events</a></li>
-       <li> <a href="#">Team</a></li>
+       <li><Link smooth={true} to="Home">Home</Link></li>
+       <li> <Link smooth={true} to="About">About</Link></li>
+       <li> <Link smooth={true} to="Stats">Statistics</Link></li>
+       <li> <Link smooth={true} to="Tracks">Tracks</Link></li>
+       <li> <Link smooth={true} to="Sponsors">Sponsors</Link></li>
+       <li> <Link smooth={true} to="Prizes">Prizes</Link></li>
+       <li> <Link smooth={true} to="Timeline">Events</Link></li>
+       <li> <Link smooth={true} to="Home">Team</Link></li>
        {/* <div className={isNavExpanded?'disp':'Hide'}> */}
-       <li> <a href="#">FAQs</a></li>
+       <li> <Link smooth={true} to="Home">FAQs</Link></li>
     
       
       </ul>

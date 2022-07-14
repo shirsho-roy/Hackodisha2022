@@ -3,7 +3,7 @@ import "./AboutUs.css";
 
 export default function About() {
   return (
-    <section id="About ">
+    <section id="About">
     <div className="AboutUs container w-[100%]">
       {/* <div className=" text-3xl lg:text-5xl ml-[5%] lg:ml-[10%] xl:ml-[7%] pt-20 mb-12 text-white tracking-normal font-medium">
         About Us
