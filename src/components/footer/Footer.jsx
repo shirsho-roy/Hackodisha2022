@@ -25,17 +25,17 @@ const Footer = () => {
         <div className='flex flex-col text-white text-md  mb-12 text-lg pr-16 md:pr-3 lg:pr-8 items-start '>
           <h2 className='flex text-3xl pt-10 lg:pt-0  md:pr-4 '>SiteMap</h2>
           <a className='pt-3  hover:text-gray-300 hover:cursor-pointer' href='#'>Home</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer' href="#about">About</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href="#About">About</a>
           <a className=' hover:text-gray-300 hover:cursor-pointer' href="#event">Event</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer' href='mailto:webwix.nitrkl@gmail.com'>ContactUs</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href='mailto:webwiz.nitrkl@gmail.com'>ContactUs</a>
           <div className='flex mt-1  mr-2'>
-          <a className='mr-4 cursor-pointer'><FontAwesomeIcon icon={faInstagram} size="xl"/></a>
-          <a className='cursor-pointer'><FontAwesomeIcon icon={faLinkedin} size="xl"/></a>
+          <a className='mr-4 cursor-pointer' href='https://instagram.com/webwiz.nitr?igshid=YmMyMTA2M2Y='><FontAwesomeIcon icon={faInstagram} size="xl"/></a>
+          <a className='cursor-pointer' href='https://www.linkedin.com/company/webwiz-nitr/'><FontAwesomeIcon icon={faLinkedin} size="xl"/></a>
           </div>
           
         </div>
         <div className='flex flex-col text-white text-lg  pt-24 md:pt-24 lg:pt-12 items-start'>
-          <a className=' hover:text-gray-300 hover:cursor-pointer'>Sponsors</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href='#Sponsors'>Sponsors</a>
           <a className=' hover:text-gray-300 hover:cursor-pointer'>FAQs</a>
           
         </div>

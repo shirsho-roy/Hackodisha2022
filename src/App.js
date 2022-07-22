@@ -7,9 +7,22 @@ import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
 import './App.css';
+import Loader from "./components/Loading/Loader";
+import { useState } from "react"
+
 function App() {
+  const [loading,setLoading] =useState(true); 
   
+  if(loading){
+    setTimeout(()=>{
+      
+      setLoading(false);
+    },2000)
+     return <Loader/>
+    
+  }  
   return (
+      !loading &&  
    
     <div  className="App" >
       <Header />
