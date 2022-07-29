@@ -68,7 +68,7 @@ function Sponsers() {
             id="loader"
             className=" opacity-0 sticky mx-[10vw]  lg:bottom-[15vh] md:bottom-[11vh] left-[10vw] right-[10vw] flex flex-col"
           >
-            <div className="lg:block hidden box-border w-[80vw] h-[15px] border-solid rounded-[20px] z-1 border-white  border-[3px] overflow-hidden ">
+            <div className="lg:block hidden box-border w-[90vw] h-[15px] border-solid rounded-[20px] z-1 border-white  border-[3px] overflow-hidden ">
               <div
                 style={{ width: `${Scroller()}%` }}
                 className="bg-white h-[20px]  border-[3px]  "
@@ -92,7 +92,7 @@ function Sponsers() {
 }
 function SponserFinal() {
   return (
-    <div className="max-w-[100vw]">
+    <div id="Sponsors" className="max-w-[100vw]">
       <Sponsers></Sponsers>
     </div>
   );
