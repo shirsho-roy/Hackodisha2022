@@ -31,8 +31,8 @@ function App() {
       <About />
       <Stats />
       <Track/>
-      <Prizes/>
       <Timeline/>
+      <Prizes/>
       <SponserFinal/>
       <FAQ/>
       <Footer />
