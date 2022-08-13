@@ -101,9 +101,7 @@ export default function SponsorsMap() {
   const ref = useRef(null);
   useEffect(()=>{
     setTimeout(() => {
-      console.log(ref.current.offsetWidth);
-      console.log(ref.current.clientWidth);
-      console.log({ current: ref.current });
+      
     let sections = gsap.utils.toArray(".panel");
     gsap.to(sections, {
       xPercent: -100 * (sections.length - 1),
@@ -112,7 +110,7 @@ export default function SponsorsMap() {
       scrollTrigger: {
         trigger: ref.current,
         pin: true,
-        scrub: 3,
+        scrub: 1,
         end: () => `+=${ref.current.offsetWidth}`,
       }
     });
