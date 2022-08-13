@@ -37,13 +37,14 @@ const Header = () => {
                 minWidth: "120px",
                 position: "fixed",
                 right: "50px",
-                top: "0",
+                top: "-20px",
                 width: "10%",
                 zindex: "10000",
                 marginRight: "5px",
               }}
               href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
               target="_blank"
+              rel= "noreferrer"
             >
               <img
                 src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
@@ -130,7 +131,9 @@ const Header = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://hackodisha2022.devfolio.co/"
+                  rel="noreferrer"
+                  target="_blank"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                 >
                   Register with Devfolio
