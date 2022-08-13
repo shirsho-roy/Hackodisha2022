@@ -141,7 +141,7 @@ const Header = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="#"
+                  href="https://bit.ly/CommunityHO"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
                 >
                   Join Us as Partner
