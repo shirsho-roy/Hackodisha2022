@@ -31,7 +31,7 @@ function App() {
         <Track />
         <Prizes />
         <Timeline />
-        {/* <SponserFinal /> */}
+        <SponserFinal />
         <FAQ />
         <Footer />
       </div>
