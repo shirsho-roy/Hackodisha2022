@@ -48,8 +48,9 @@
   display: none;
 }
 .logo a img {
-  width: 120px;
+  width: 100px;
   height: 120px;
+  padding-top: 20px;
 }
 
 .nav-menu ul {
@@ -162,7 +163,7 @@ li {
     /* z-index: -1; */
     height: 140px;
     background-color: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     /* align-items: center; */
     position: fixed;
     width: 100%;
@@ -215,10 +216,10 @@ li {
   }
   .w-nav-menu {
     background: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     display: block;
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 0;
     display: flex;
     flex-direction: column;

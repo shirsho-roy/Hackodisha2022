@@ -1,10 +1,15 @@
 .ques{
     background: linear-gradient(90deg, #260045 0%, #007779 100%);
 box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, 0.1);
-border-radius: 20px;
+border-radius: 8px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+cursor: pointer;
 }
 .ans{
     background: linear-gradient(95.34deg, #05574A 0%, #0FAD94 100%);
 box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.1);
-border-radius: 20px; 
+border-radius: 5px; 
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
 }

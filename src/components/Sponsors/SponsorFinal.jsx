@@ -1,7 +1,7 @@
-import { React, useState, useEffect } from "react";
+import { React/*, useState, useEffect*/ } from "react";
 import SponsorsMap from "./SponsorsMap";
-import { gsap } from "gsap";
-function Scroller() {
+// import { gsap } from "gsap";
+/*function Scroller() {
   const [scrollTop, setScrollTop] = useState(0);
   useEffect(() => {
     const onScroll = () => {
@@ -14,8 +14,7 @@ function Scroller() {
         winScroll -= 7 * PageSize;
       }
       height = 5 * PageSize;
-      console.log(winScroll);
-      console.log(height);
+     
       const scrolled = (winScroll / height) * 100;
       setScrollTop(scrolled);
     };
@@ -23,9 +22,9 @@ function Scroller() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return scrollTop;
-}
+}*/
 
-function Sponsers() {
+/*function Sponsers() {
   useEffect(() => {
     gsap.to("#loader", {
       display: "none",
@@ -62,13 +61,13 @@ function Sponsers() {
       <div className="">
         <div>
           <div id="Sponser" className="">
-            <SponsorsMap></SponsorsMap>
+            
           </div>
           <div
             id="loader"
             className=" opacity-0 sticky mx-[10vw]  lg:bottom-[15vh] md:bottom-[11vh] left-[10vw] right-[10vw] flex flex-col"
           >
-            <div className="lg:block hidden box-border w-[90vw] h-[15px] border-solid rounded-[20px] z-1 border-white  border-[3px] overflow-hidden ">
+            <div className=" hidden box-border w-[90vw] h-[15px] border-solid rounded-[20px] z-1 border-white  border-[3px] overflow-hidden ">
               <div
                 style={{ width: `${Scroller()}%` }}
                 className="bg-white h-[20px]  border-[3px]  "
@@ -76,7 +75,7 @@ function Sponsers() {
             </div>
             <div
               style={{}}
-              className="lg:flex hidden flex-row items-end text-white text-xl"
+              className=" hidden flex-row items-end text-white text-xl"
             >
               <p className=" basis-1/5">Platinum Sponsors</p>
               <p className=" basis-1/5">Gold Sponsors</p>
@@ -89,11 +88,11 @@ function Sponsers() {
       </div>
     </div>
   );
-}
+}*/
 function SponserFinal() {
   return (
     <div id="Sponsors" className="max-w-[100vw]">
-      <Sponsers></Sponsers>
+      <SponsorsMap></SponsorsMap>
     </div>
   );
 }
