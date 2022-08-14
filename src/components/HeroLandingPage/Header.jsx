@@ -94,10 +94,10 @@ const Header = () => {
         <main className="mt-10 mx-auto lg:ml-32 max-w-[800px] px-4 sm:mt-12 sm:px-6 md:mt-16 lg:px-8">
           <div className="sm:text-center lg:text-left">
             <h1 className="text-6xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
-              <span className="block fontx inline">HACK</span>{" "}
-              <span className="block text-[#05893d]  xl:inline">
+              <p className="block fontx inline">HACK</p>{" "}
+              <p className="block text-[#05893d]  xl:inline">
                 ODISHA 2.0
-              </span>
+              </p>
             </h1>
             <p className="mt-3 text-base text-slate-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Take charge of your ideas and make a difference with real-life
@@ -122,6 +122,27 @@ const Header = () => {
                   Join Us as Partner
                 </a>
               </div>
+            </div>
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div className="rounded-md shadow">
+                <a
+                  href="https://hackodisha2022.devfolio.co/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                >
+                  Sponsor Us
+                </a>
+              </div>
+              <div className="mt-3 sm:mt-0 sm:ml-3">
+                <a
+                  href="https://bit.ly/CommunityHO"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
+                >
+                  Join With Discord
+                </a>
+              </div>
+      
             </div>
           </div>
         </main>

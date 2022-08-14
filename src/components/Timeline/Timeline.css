@@ -1,0 +1,125 @@
+.contents {
+    padding: 0.5rem 0.5rem;
+  }
+  .cont{
+    width:90vw;
+    margin:auto;
+  }
+  .content-section {
+    flex-direction: column;
+    padding: 0.2px 0;
+  }
+  .container-schedule {
+    display: block;
+    width: 100%;
+   
+    margin: 0 auto;
+  }
+  .daily-schedule {
+    margin-bottom: 1rem;
+    margin: 0.5rem;
+  
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  .single-event {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.6rem;
+    border-radius: 5px;
+  }
+  .date-time {
+    background-color: rgb(7, 82, 139);
+    opacity: 0.95;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    
+    padding: 1rem 1rem 1rem 1rem;
+    text-align:left;
+    white-space: nowrap;
+    color: #fff;
+    width:120px;
+    }
+  .date {
+    margin: 0;
+    padding-left: 0;
+    border: 1px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #fff;
+  }
+  
+  .time {
+    padding-left: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .Hackathon {
+    /* font-size: 100%; */
+    font: inherit;
+    /* vertical-align: baseline; */
+    border-left: 5px solid #06bb88;
+  }
+  .description {
+    padding-left: 1rem;
+    /* background-color: #52358a; */
+    background-color:rgb(60, 5, 123);
+    /* opacity: 0.9; */
+    flex:2;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 1rem; */
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 699;
+  }
+  
+  .name {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  .speaker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .daily-schedule {
+      padding: 0;
+      margin: 0;
+    }
+    .content-section .contents .single-event .date-time {
+      padding: 0.6rem;
+      width:85px;
+    }
+    .Hackathon {
+      border-left: 2px solid #12ca2b;
+    }
+    .description {
+      padding-left: 0.8rem;
+    }
+    
+  }
