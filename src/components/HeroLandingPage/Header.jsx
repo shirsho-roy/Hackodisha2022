@@ -8,6 +8,7 @@ import "./Header.css";
 import { ImCross } from "react-icons/im";
 import { useState } from "react";
 import Hamburger from "hamburger-react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // import LandingPageSVG from '../../assets/LandingPageSVG.svg';
 
@@ -58,42 +59,16 @@ const Header = () => {
           </h2>
           <div className={isNavExpanded ? "nav-menu w-nav-menu" : "nav-menu"}>
             <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">About</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Tracks</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Sponsors</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Schedule</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Prizes</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Events</a>
-              </li>
-              <li>
-                {" "}
-                <a href="#">Team</a>
-              </li>
-              {/* <div className={isNavExpanded?'disp':'Hide'}> */}
-              <li>
-                {" "}
-                <a href="#">FAQs</a>
-              </li>
+            <li><Link smooth={true} to="Home">Home</Link></li>
+       <li> <Link smooth={true} to="About">About</Link></li>
+       <li> <Link smooth={true} to="Stats">Statistics</Link></li>
+       <li> <Link smooth={true} to="Tracks">Tracks</Link></li>
+       <li> <Link smooth={true} to="Sponsors">Sponsors</Link></li>
+       <li> <Link smooth={true} to="Prizes">Prizes</Link></li>
+       <li> <Link smooth={true} to="Timeline">Events</Link></li>
+       <li> <Link smooth={true} to="Home">Team</Link></li>
+       {/* <div className={isNavExpanded?'disp':'Hide'}> */}
+       <li> <Link smooth={true} to="Faq">FAQs</Link></li>
             </ul>
           </div>
           <a
@@ -141,7 +116,7 @@ const Header = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="#"
+                  href="https://bit.ly/CommunityHO"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 bg-[#05893d] hover:bg-[#037a34] md:py-4 md:text-lg md:px-10"
                 >
                   Join Us as Partner
