@@ -15,7 +15,7 @@ import { useState } from "react";
 import FAQ from "./components/FAQ/FAQ";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   if (loading) {
     setTimeout(() => {
