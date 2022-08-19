@@ -1,10 +1,11 @@
 import React from 'react'
-import healthcare from './healthcare.svg'
-import environment from './environment.svg'
-import disastermanagement from './disaster management.svg'
-import openinnovation from './open innovation.svg'
-import breakchain from './break-chain.svg'
-import blockchain from './noun-blockchain-5071896.svg'
+import healthcare from './Healthcare2.svg'
+import environment from './Environment2.svg'
+import disastermanagement from './Disaster Management2.svg'
+import openinnovation from './Open Innovation2.svg'
+import breakchain from './Women Security2.svg'
+import blockchain from './Web3 2.svg'
+import Raisebox from './raisebox'
 const Track = () => {
   return (
     <section id='Tracks'>
@@ -18,10 +19,10 @@ const Track = () => {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={healthcare}/>
+          <img alt="" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4 " src={healthcare}/>
           
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">HealthCare</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">HealthCare</h1>
             <h3 class="text-gray-500 mb-3"></h3>
             <p class="mb-4">The Healthcare track aims to create innovative projects that address various health-related issues. Today, we are faced with modern health challenges such as the COVID19 pandemic, mental health, obesity, cardiovascular diseases and many more. It is the perfect opportunity for hackers to come up with something that serves the health industry.</p>
             {/* <span class="inline-flex">
@@ -46,9 +47,9 @@ const Track = () => {
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={blockchain}/>
+          <img alt="team" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4 font-bold" src={blockchain}/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">Web3</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">Web3</h1>
             <h3 class="text-gray-500 mb-3"></h3>
             <p class="mb-4">The beauty of Web 3.0 is it does not require permission which means no centralized authority creates obstacles to your freedom that’s why so many DeFi applications are growing to give financial freedom to everyone.</p>
             {/* <span class="inline-flex">
@@ -73,9 +74,9 @@ const Track = () => {
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={environment}/>
+          <img alt="team" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4" src={environment}/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">Environment</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">Environment</h1>
             <h3 class="text-gray-500 mb-3"></h3>
             <p class="mb-4">This is the only planet we got; we have no planet B (at least not now, not as good as the one we got). Projects in the Environment track aim to a better and more sustainable environment. This is the opportunity to train people into acting more responsibly and create greener technologies for the coming future.</p>
             {/* <span class="inline-flex">
@@ -100,9 +101,9 @@ const Track = () => {
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={breakchain}/>
+          <img alt="team" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4" src={breakchain}/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">Women security</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">Women security</h1>
             <h3 class="text-gray-500 mb-3"></h3>
             <p class="mb-4">It is a sad reality that women safety is in danger these days. It is our collective responsibility to create a safer tomorrow. Calling out hackers to bring forth ideas that will elevate women security with mind-blowing technologies.</p>
             {/* <span class="inline-flex">
@@ -127,9 +128,9 @@ const Track = () => {
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={disastermanagement}/>
+          <img alt="team" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4" src={disastermanagement}/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">Disaster Management</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">Disaster Management</h1>
             <h3 class="text-gray-500 mb-3"></h3>
             <p class="mb-4">It is crucial now more than ever, with the shocking number of disasters we are faced with, to create technologies that can dampen the aftermath we suffer from these disasters. Feel that you can contribute towards the disaster management with cutting edge technologies? This is the right track for you</p>
             {/* <span class="inline-flex">
@@ -154,11 +155,11 @@ const Track = () => {
       </div>
       <div class="p-4 lg:w-1/2">
         <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src={openinnovation}/>
+          <img alt="team" class="flex-shrink-1 rounded-lg w-28 h-28 object-cover object-center sm:mb-0 mb-4" src={openinnovation}/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font font-medium text-xl text-black">Open Innovation</h2>
+            <h1 class="title-font font-medium text-xl text-gray-300">Open Innovation</h1>
             <h3 class="text-gray-500 mb-3"></h3>
-            <p class="mb-4">Have ideas that do not fall into any of the above tracks? Worry not. The best part is we encourage you to exercise your ideas and develop technologies that address a problem, without any restrictions.</p>
+            <p class="mb-4">Have ideas that do not fall into any of the above tracks? Worry not. The best part is we encourage you to exercise your ideas and develop technologies that address a problem, without any restrictions and it can be anything if your choice.</p>
             {/* <span class="inline-flex">
               <a class="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
