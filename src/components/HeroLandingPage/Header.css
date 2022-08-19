@@ -163,7 +163,7 @@ li {
     /* z-index: -1; */
     height: 140px;
     background-color: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     /* align-items: center; */
     position: fixed;
     width: 100%;
@@ -216,7 +216,7 @@ li {
   }
   .w-nav-menu {
     background: black;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     display: block;
     position: absolute;
     top: 100px;
@@ -279,7 +279,7 @@ li {
   }
 
   .logo a img {
-    width: 80px;
+    width: 60px;
     height: 80px;
   }
 }
