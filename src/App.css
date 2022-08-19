@@ -1,8 +1,16 @@
 .App{
-    background-image: url(./assets/bg-regular.svg);
+    background-image: url(./assets/bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+
+.blob{
+	background-image: url(./assets/Bgsec.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 body::-webkit-scrollbar-track
 {

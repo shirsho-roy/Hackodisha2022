@@ -9,9 +9,12 @@ import SponsorsMobile from './SponsorsMobile';
 
 const Style=styled.a`
 #blureffect{
-      background-image: linear-gradient(148.79deg, rgba(7, 197, 200, 0.4) 5.08%, rgba(64, 13, 121, 0.4) 81.13%);
-      border-radius: 25px;
-      box-shadow: 5px 5px 25px 25px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255,255, 0)); 
+     -webkit-backdrop-filter: blur(20px);
+     backdrop-filter: blur(20px);
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+     border: 1px solid rgba(255, 255, 255, 0.18); 
+     border-radius: 32px;
       
     }
 

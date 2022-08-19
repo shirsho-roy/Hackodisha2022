@@ -5,8 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(38,33,130);
-    background: linear-gradient(90deg, rgb(18 23 100 / 95%) 0%, rgba(11,11,116,0.8102591378348214) 35%, rgb(21 30 124) 100%);
+    /* background: rgb(38,33,130);
+    background: linear-gradient(90deg, rgb(18 23 100 / 95%) 0%, rgba(11,11,116,0.8102591378348214) 35%, rgb(21 30 124) 100%); */
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-image: url(../../assets/Loader.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hackodisha-name {
