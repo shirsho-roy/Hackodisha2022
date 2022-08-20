@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col text-white text-lg  pt-24 md:pt-24 lg:pt-12 items-start'>
           <a className=' hover:text-gray-300 hover:cursor-pointer' href='#Sponsors'>Sponsors</a>
-          <a className=' hover:text-gray-300 hover:cursor-pointer'>FAQs</a>
+          <a className=' hover:text-gray-300 hover:cursor-pointer' href='#Faq'>FAQs</a>
           
         </div>
     </div>
@@ -49,8 +49,8 @@ const Footer = () => {
     
     <div className="flex flex-col items-center pb-10 pr-8 ml-4 md:pl-10  md:w-2/5 md:pt-16 lg:pt-4">
         <div className='text-3xl text-white mb-4  text-center'>Want to become a sponsor of Hackodisha 2.0?</div>
-        <button type='button ' className='cursor-pointer rounded-3xl ring ring-white p-3 lg:p-1 text-xl w-64 sm:w-80 md:w-64 lg:w-80 md:mt-6 lg:mt-10 hover:text-gray-300  hover:ring-gray-400'>
-            Become a sponsor
+        <button type='button' className='cursor-pointer rounded-3xl ring ring-white p-3 lg:p-1 text-xl w-64 sm:w-80 md:w-64 lg:w-80 md:mt-6 lg:mt-10 hover:text-gray-300  hover:ring-gray-400'>
+           <a href='https://forms.gle/iqGDkwR6PZ2kaDFM9'> Become a sponsor</a>
             </button> 
 
     </div>
