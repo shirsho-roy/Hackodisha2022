@@ -149,6 +149,7 @@ const Header = () => {
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="https://bit.ly/CommunityHO"
+                target="_blank"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-1"
               >
                 Join Us as Partner
@@ -158,7 +159,7 @@ const Header = () => {
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div className="rounded-md shadow">
               <a
-                href="https://hackodisha2022.devfolio.co/"
+                href="https://forms.gle/iqGDkwR6PZ2kaDFM9"
                 rel="noreferrer"
                 target="_blank"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10 btn-hover color-3"
@@ -168,7 +169,8 @@ const Header = () => {
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
-                href="https://bit.ly/CommunityHO"
+                href="https://discord.gg/WWbrGhbtmV"
+                target="_blank"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-4"
               >
                 Join With Discord
