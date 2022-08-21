@@ -331,21 +331,26 @@ li {
 .btn-hover.color-1{
   background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
     box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    width: 250px;
+        
 }
 
 .btn-hover.color-2 {
   background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
   box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+  width: 250px;
 }
 
 
 .btn-hover.color-4{
   background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+   width: 250px; 
 }
 
 .btn-hover.color-3{
 background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
 box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+width: 250px;
 }
 
