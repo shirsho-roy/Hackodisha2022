@@ -150,7 +150,9 @@ const Header = () => {
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="https://bit.ly/CommunityHO"
-                className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-1 "
+
+                target="_blank"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-1"
               >
                 Join Us as Partner
               </a>
@@ -169,8 +171,9 @@ const Header = () => {
             </div>
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
-                href="https://discord.com/invite/22QhUsV9"
-                className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-4 "
+                href="https://discord.gg/WWbrGhbtmV"
+                target="_blank"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-4"
               >
                 Join With Discord
               </a>
