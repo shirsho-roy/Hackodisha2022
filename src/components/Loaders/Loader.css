@@ -17,6 +17,7 @@
     font-size: 32px;
     margin-left: 42px; 
     font-weight: 600;
+    color: white; 
 }
 .loader {
     position: relative;

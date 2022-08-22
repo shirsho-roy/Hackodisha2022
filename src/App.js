@@ -2,17 +2,23 @@ import About from "./components/About/AboutUs";
 import Footer from "./components/footer/Footer";
 import Header from "./components/HeroLandingPage/Header";
 import Prizes from "./components/Prizes/Prizes";
-import SponserFinal from "./components/Sponsors/SponsorFinal";
+// import SponserFinal from "./components/Sponsors/SponsorFinal";
 import Stats from "./components/statistics/Stats";
 import Timeline from "./components/Timeline/Timeline";
 import Track from "./components/Track/Track";
-import bgWeb from "./assets/bg-sec.png";
+import bgWeb from "./assets/bg-final.png";
 
 import "./App.css";
 // import Loader from "./components/Loading/Loader";
 import Loader from "./components/Loaders/Loader";
 import { useState } from "react";
 import FAQ from "./components/FAQ/FAQ";
+import {
+  BronzeSponsors,
+  GoldSponsors,
+  PlatinumSponsors,
+  SilverSponsors,
+} from "./components/Sponsor/sponsor";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,13 +34,17 @@ function App() {
       <div className="App">
         <Header />
 
-        <div className="blob">
+        <div className="blob" style={{ backgroundImage: `url(${bgWeb})` }}>
           <About />
           <Stats />
           <Track />
           <Prizes />
           {/* <Timeline /> */}
-          <SponserFinal />
+          {/* <SponserFinal /> */}
+          <PlatinumSponsors />
+          <GoldSponsors />
+          <SilverSponsors />
+          <BronzeSponsors />
           <FAQ />
           <Footer />
         </div>

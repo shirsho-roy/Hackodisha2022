@@ -11,7 +11,10 @@ const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [navContExpanded, setNavContExpanded] = useState(false);
   return (
-    <section className="LandingPage container-center-horizontal md:h-screen pb-10">
+    <section
+      id="home"
+      className="LandingPage container-center-horizontal md:h-screen pb-10"
+    >
       <div className="overlap-group-container">
         <div
           className={
@@ -21,13 +24,12 @@ const Header = () => {
           }
         >
           <div className={isNavExpanded ? "Hidex" : "logo"}>
-            <a href="#">
+            <a href="#home">
               {" "}
               <img src={Logo} alt="No img" height="80px" width="80px" />
             </a>
             <a
               id="mlh-trust-badge"
-              
               style={{
                 display: "block",
                 maxWidth: "200px",
@@ -129,7 +131,7 @@ const Header = () => {
       >
         <div className="sm:text-center lg:text-left">
           <h1 className="text-6xl tracking-tight font-bold text-slate-100 sm:text-5xl md:text-6xl">
-            <p className="block fontx inline">HACK</p>{" "}
+            <p className="block fontx">HACK</p>{" "}
             <p className="block text-[#ea5f3f]  xl:inline">ODISHA 2.0</p>
           </h1>
           <p className="mt-3 text-base text-slate-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -150,7 +152,7 @@ const Header = () => {
             <div className="mt-3 sm:mt-0 sm:ml-3">
               <a
                 href="https://bit.ly/CommunityHO"
-
+                rel="noreferrer"
                 target="_blank"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-1"
               >
@@ -173,6 +175,7 @@ const Header = () => {
               <a
                 href="https://discord.gg/WWbrGhbtmV"
                 target="_blank"
+                rel="noreferrer"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-slate-100 md:py-4 md:text-lg md:px-10 btn-hover color-4"
               >
                 Join With Discord
