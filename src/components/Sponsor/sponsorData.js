@@ -3,11 +3,11 @@ import NITR from "../../assets/Sponsors/Platinum/Nit.png";
 import Github from "../../assets/Sponsors/Platinum/github.png";
 
 import devfolio from "../../assets/Sponsors/Gold/devfolio.png";
-import github from "../../assets/Sponsors/Gold/Github.png";
+// import github from "../../assets/Sponsors/Gold/Github.png";
 import polygon from "../../assets/Sponsors/Gold/polygon.png";
 import fueler from "../../assets/Sponsors/Gold/fueler.png";
+import Filecoin from "../../assets/Sponsors/Gold/Filecoin.png";
 
-import Filecoin from "../../assets/Sponsors/Silver/Filecoin.png";
 import stream from "../../assets/Sponsors/Silver/Streamyard.png";
 import hoverr from "../../assets/Sponsors/Silver/hoverrobotix.png";
 import clerky from "../../assets/Sponsors/Silver/Clerky_Logo.jpg";
@@ -65,9 +65,9 @@ const goldSponsors = [
   },
   {
     id: 2,
-    link: "https://github.com/",
-    image: github,
-    alt: "Github gold sponsor for Hackodisha",
+    link: "https://filecoin.io/",
+    image: Filecoin,
+    alt: "Polygon silver sponsor for Hackodisha",
   },
   {
     id: 3,
@@ -83,12 +83,6 @@ const goldSponsors = [
   },
 ];
 const silverSponsors = [
-  {
-    id: 1,
-    link: "https://filecoin.io/",
-    image: Filecoin,
-    alt: "Polygon silver sponsor for Hackodisha",
-  },
   {
     id: 2,
     link: "https://streamyard.com/",
