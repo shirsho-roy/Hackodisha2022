@@ -1,6 +1,6 @@
 
 .bronze, .platinum, .silver, .gold {
-    margin: 30px; 
+    margin: 40px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,11 +17,11 @@
 
 .sponsor_list_platinum{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     row-gap : 24px; 
-    column-gap: 24px;
+    column-gap: 60px;
 }
 
 .sponsor_list_gold {
@@ -30,25 +30,29 @@
     justify-content: center;
     align-items: center;
     row-gap : 24px; 
-    column-gap: 24px;
+    column-gap: 60px;
 }
 
 .sponsor_list_silver {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     justify-content: center;
     align-items: center;
-    row-gap : 24px; 
-    column-gap: 24px;
+    margin-left:50px;
+    margin-right: 50px;
+    row-gap : 32px; 
+    column-gap: 150px;
 }
 
 .sponsor_list_bronze{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    row-gap : 24px; 
-    column-gap: 24px;
+    margin-left:50px;
+    margin-right: 50px;
+    row-gap : 32px; 
+    column-gap: 150px;
 }
 
 @media screen and (max-width: 900px) {
