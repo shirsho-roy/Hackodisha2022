@@ -26,7 +26,7 @@ const Team = () => {
         })
       }
       </div> */}
-      <div className='text-[36px] lg:text-[48px] text-white flex justify-center pt-10'>
+      <div className='text-[32px] md:text-[40px] lg:text-[48px] text-white flex justify-center pt-10'>
         Community Partners
       </div>
       <div className=' flex flex-wrap p-2 lg:p-10 justify-evenly'>
@@ -34,8 +34,8 @@ const Team = () => {
           datacom.map((com)=> {
             const {imglink,contact}=com;
             return(
-              <div className='flex justify-center align-middle color mt-4 w-[300px]  p-1 m-2'>
-                <a href={contact}><img className=''  src={imglink} alt='a'/></a>
+              <div className='flex justify-center align-middle  mt-4 w-[250px]  p-1 m-2'>
+                <a href={contact} className="flex justify-center"><img className=''  src={imglink} alt='a'/></a>
               </div>
             )
           })
