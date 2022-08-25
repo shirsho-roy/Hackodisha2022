@@ -1,10 +1,10 @@
 import React from "react";
-import healthcare from "./Healthcare.svg";
-import environment from "./Environment.svg";
-import disastermanagement from "./Disaster Management.svg";
-import openinnovation from "./Open Innovation.svg";
+import healthcare from "./healthcare.svg";
+import environment from ".environment.svg";
+import disastermanagement from "./disaster management.svg";
+import openinnovation from "./open innovation.svg";
 import breakchain from "./Women Security.svg";
-import Education from "./Education.svg";
+import Education from "./education.svg";
 const Track = () => {
   return (
     <section id="Tracks">
