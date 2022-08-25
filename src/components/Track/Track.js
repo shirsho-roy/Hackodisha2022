@@ -10,7 +10,7 @@ const Track = () => {
     <section id="Tracks">
       <div className="container">
         <div className="text-white lg:text-[20px] md:text-[18px] font-semibold">
-          <h1 className="mx-16 py-10 mb-3 text-4xl font-normal">OUR TRACKS</h1>
+          <h1 className="mx-16 py-10 mb-3 text-4xl font-medium">OUR TRACKS</h1>
           <div className="grid grid-cols-2 md:grid-cols-3">
             <div className="flex flex-col items-center">
               <img
