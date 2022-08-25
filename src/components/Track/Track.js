@@ -1,6 +1,6 @@
 import React from "react";
 import healthcare from "./healthcare.svg";
-import environment from ".environment.svg";
+import environment from "./environment.svg";
 import disastermanagement from "./disaster management.svg";
 import openinnovation from "./open innovation.svg";
 import breakchain from "./Women Security.svg";
