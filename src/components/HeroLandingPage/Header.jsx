@@ -1,16 +1,25 @@
 import React from "react";
 import Logo from "../../assets/g2700.png";
 import "./Header.css";
-
+import Team from "../team/Team";
+import {Link as Link1} from 'react-router-dom';
 import { useState } from "react";
 import Hamburger from "hamburger-react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import HackodishaIMG from "../../assets/logo.png";
+import { Routes,Route } from "react-router-dom";
 
 const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [navContExpanded, setNavContExpanded] = useState(false);
   return (
+    <>
+      <Routes>
+      <Route path='/team' element={<Team/>}>
+
+      </Route>
+    </Routes>
+    
     <section
       id="home"
       className="LandingPage container-center-horizontal md:h-screen pb-10"
@@ -56,6 +65,7 @@ const Header = () => {
             HackOdisha 2.0
           </h2>
           <div className={isNavExpanded ? "nav-menu w-nav-menu" : "nav-menu"}>
+          
             <ul>
               <li>
                 <Link smooth={true} to="Home">
@@ -93,16 +103,20 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                {" "}
+                {" "}                
                 <Link smooth={true} to="Timeline">
                   Events
                 </Link>
+                
               </li>
               <li>
                 {" "}
-                <Link smooth={true} to="Home">
+                <Link1 to='/team' >
+                {/* <Link smooth={true} >
                   Team
-                </Link>
+                </Link> */}
+                Partners
+                </Link1>
               </li>
               {/* <div className={isNavExpanded?'disp':'Hide'}> */}
               <li>
@@ -189,6 +203,7 @@ const Header = () => {
         </div>
       </main>
     </section>
+    </>
   );
 };
 
