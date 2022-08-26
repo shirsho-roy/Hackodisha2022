@@ -67,13 +67,23 @@
     }
 
     .sponsor_list_platinum, .sponsor_list_gold {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        row-gap : 24px; 
+        column-gap: 28px;
     }
 
     .sponsor_list_silver {
         grid-template-columns: 1fr 1fr;
+        margin-left:10px;
+        margin-right: 10px;
+        row-gap : 28px; 
+        column-gap: 28px;
     } 
     .sponsor_list_bronze {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+        margin-left:10px;
+        margin-right: 10px;
+        row-gap : 28px; 
+        column-gap: 28px;
     }
 }
