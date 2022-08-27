@@ -34,7 +34,7 @@ const FAQ = () => {
               return (
                 <SingleQuestion
                   key={question.id}
-                  {...question}
+                  data={question}
                 ></SingleQuestion>
               );
             })}

@@ -29,7 +29,7 @@ const Track = () => {
                 width="180px"
                 height="180px"
               ></img>
-              <h3 className="mt-4 mb-8 md:mb-8">Education</h3>
+              <h3 className="mt-4 mb-8 md:mb-8">Web3</h3>
             </div>
             <div className="flex flex-col items-center">
               <img

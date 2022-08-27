@@ -20,8 +20,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    row-gap : 24px; 
-    column-gap: 60px;
+    gap: 24px; 
 }
 
 .sponsor_list_gold {
@@ -29,35 +28,44 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    row-gap : 24px; 
-    column-gap: 60px;
+    gap: 32px; 
 }
 
 .sponsor_list_silver {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin-left:50px;
     margin-right: 50px;
-    row-gap : 32px; 
-    column-gap: 150px;
+    gap: 48px; 
 }
 
 .sponsor_list_bronze{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     margin-left:50px;
     margin-right: 50px;
-    row-gap : 32px; 
-    column-gap: 150px;
+    gap: 48px; 
 }
 
 @media screen and (max-width: 900px) {
     .sponsors_heading{
         font-size: 48px; 
+    }
+
+    .sponsor_list_platinum, .sponsor_list_gold {
+        gap: 24px; 
+    }
+
+    .sponsor_list_silver {
+        gap: 24px; 
+    } 
+    .sponsor_list_bronze {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px; 
     }
 }
 
@@ -65,25 +73,21 @@
     .sponsors_heading{
         font-size: 28px; 
     }
-
-    .sponsor_list_platinum, .sponsor_list_gold {
-        grid-template-columns: 1fr 1fr;
-        row-gap : 24px; 
-        column-gap: 28px;
+    .sponsor_list_platinum {
+        grid-template-columns: 1fr;
+    }
+    .sponsor_list_gold {
+        grid-template-columns: 1fr;
     }
 
     .sponsor_list_silver {
         grid-template-columns: 1fr 1fr;
         margin-left:10px;
         margin-right: 10px;
-        row-gap : 28px; 
-        column-gap: 28px;
     } 
     .sponsor_list_bronze {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-left:10px;
         margin-right: 10px;
-        row-gap : 28px; 
-        column-gap: 28px;
     }
 }
