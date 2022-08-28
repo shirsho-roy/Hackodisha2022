@@ -45,19 +45,19 @@ const Day1 = [
       id: 9,
       time: '16:00',
       date: '10 Sept',
-      title: 'Fun Event 1(MLH Mini Event)',
+      title: 'MLH Mini Event',
     },
     {
       id: 10,
       time: '18:00',
       date: '10 Sept',
-      title: 'Workshop 1(Gourav Sen)',
+      title: 'Workshop',
     },
     {
       id: 11,
       time: '19:00',
       date: '10 Sept',
-      title: 'Fun Event 2',
+      title: 'Fun Even',
     },
   ];
   
@@ -66,13 +66,13 @@ const Day1 = [
       id: 12,
       time: '00:00',
       date: '11 Sept',
-      title: 'Fireside chat(Hacker Hangout)',
+      title: 'Hacker Hangout',
     },
     {
       id: 13,
       time: '10:00',
       date: '11 Sept',
-      title: 'Workshop 3',
+      title: 'Workshop',
     },
     {
       id: 14,
@@ -84,7 +84,7 @@ const Day1 = [
       id: 15,
       time: '12:00',
       date: '11 Sept',
-      title: 'Fun Event 3',
+      title: 'Fun Event',
     },
     {
       id: 14,
