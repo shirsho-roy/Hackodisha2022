@@ -32,12 +32,12 @@
     border-radius: 5px;
   }
   .date-time {
-    background-color: rgb(7, 82, 139);
+    background: linear-gradient(90deg, rgba(191, 214, 255, 0.75) 0%, rgba(228, 22, 179, 0.75) 100%);
     opacity: 0.95;
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    
+    border-radius: 8px 0 0 8px;
     padding: 1rem 1rem 1rem 1rem;
     text-align:left;
     white-space: nowrap;
@@ -48,7 +48,8 @@
     margin: 0;
     padding-left: 0;
     border: 1px;
-    font-size: 100%;
+    font-size: 120%;
+    font-weight: 400;
     font: inherit;
     vertical-align: baseline;
     color: #fff;
@@ -68,7 +69,8 @@
   .description {
     padding-left: 1rem;
     /* background-color: #52358a; */
-    background-color:rgb(60, 5, 123);
+    background: linear-gradient(270deg, #C70F93 0%, #4586F2 100%);
+    border-radius: 0px 8px 8px 0px;
     /* opacity: 0.9; */
     flex:2;
     color: #fff;
@@ -108,7 +110,7 @@
   
   @media (max-width: 767px) {
     .daily-schedule {
-      padding: 0;
+      padding: 7px;
       margin: 0;
     }
     .content-section .contents .single-event .date-time {

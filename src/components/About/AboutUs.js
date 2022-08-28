@@ -12,7 +12,7 @@ export default function About() {
           <img
             src="https://res.cloudinary.com/ash123/image/upload/v1657686843/HackOdisha2022/AboutUsImg_jlahdm-removebg-preview_fttq1j.png"
             alt="HackOdisha2022"
-            className="h-[30vh] sm:h-[35vh] lg:mt-12 xl:h-[45vh] mb-[4%] w-[80%] md:w-[60%] lg:w-[45%] xl:w-[42%] ml-12 md:ml-36 lg:ml-24 lg:mr-4"
+            className="h-[30vh] sm:h-[85vh] pb-4 pt-4 lg:mt-12 mb-12 pb-12 pt-4 object-center xl:h-[45vh] mb-[4%] w-[80%] md:w-[40%] lg:w-[45%] xl:w-[42%] ml-12 md:ml-20 lg:ml-24 lg:mr-12"
           />
           <div className="  lg:pr-0 lg:w-[60%] pl-1 ">
             <p className="font-sans lg:w-[95%]  text-base md:text-lg lg:text-xl xl:text-2xl txt leading-6">
