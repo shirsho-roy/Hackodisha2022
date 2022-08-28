@@ -38,6 +38,7 @@ function App() {
           <Stats />
           <Track />
           <Prize />
+          <Timeline/>
           <PlatinumSponsors />
           <GoldSponsors />
           <SilverSponsors />

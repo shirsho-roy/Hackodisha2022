@@ -56,11 +56,11 @@ function card3(Day3) {
 const Timeline = () => {
   return (
    <section id='Timeline'>
-    <div className="cont" >
+    <div className="cont container" >
 
       <ScheduleContainer>
         <Scheduleh1 style={{ color: 'white' }}>
-           TIMELINE<span style={{ color: '#ff0000' }}></span>
+           <p className='pt-6'>TIMELINE<span style={{ color: '#ff0000' }}></span></p>
         </Scheduleh1>{' '}
       </ScheduleContainer>
 
