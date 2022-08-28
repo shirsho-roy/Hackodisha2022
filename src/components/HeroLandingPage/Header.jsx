@@ -22,7 +22,7 @@ const Header = () => {
 
       <section
         id="home"
-        className="LandingPage container-center-horizontal md:h-screen pb-10"
+        className="LandingPage container-center-horizontal sm:h-screen pb-10 "
       >
         <div className="overlap-group-container">
           <div

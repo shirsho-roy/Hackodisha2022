@@ -98,14 +98,14 @@ const Footer = () => {
             >
               <a href="https://forms.gle/iqGDkwR6PZ2kaDFM9">
                 {" "}
-                Become a sponsor
+                Become a Sponsor
               </a>
             </button>
           </div>
         </div>
 
-        <div className=" flex justify-center text-white xl:mt-10">
-          Hackodisha 2.0 &#169; 2022. Powerd by Webwiz, NIT Rourkela.
+        <div className=" flex justify-end text-white xl:mt-10">
+          Hackodisha 2.0 &#169; 2022. Powered by Webwiz, NIT Rourkela.
         </div>
       </div>
     </div>
