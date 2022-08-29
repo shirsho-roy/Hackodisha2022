@@ -11,7 +11,7 @@ const Platinum = ({ logo, link, alt }) => {
   return (
     <div className="platinum_box">
       <a href={link} target="_blank" rel="noreferrer">
-        <img className="logo_large" src={logo} alt={alt} />
+        <img className="logo_large w-full h-auto" src={logo} alt={alt} />
       </a>
     </div>
   );
@@ -44,7 +44,7 @@ const Gold = ({ logo, link, alt }) => {
   return (
     <div className="gold_box">
       <a href={link} target="_blank" rel="noreferrer">
-        <img className="logo_large" src={logo} alt={alt} />
+        <img className="logo_large w-[85%] h-auto" src={logo} alt={alt} />
       </a>
     </div>
   );
@@ -77,7 +77,7 @@ const Silver = ({ logo, link, alt }) => {
   return (
     <div className="silver_box">
       <a href={link} target="_blank" rel="noreferrer">
-        <img className="logo_large" src={logo} alt={alt} />
+        <img className="logo_large w-[80%] h-auto" src={logo} alt={alt} />
       </a>
     </div>
   );
@@ -110,7 +110,7 @@ const Bronze = ({ logo, link, alt }) => {
   return (
     <div className="platinum_box">
       <a href={link} target="_blank" rel="noreferrer">
-        <img className="logo_large" src={logo} alt={alt} />
+        <img className="logo_large w-[75%] h-auto" src={logo} alt={alt} />
       </a>
     </div>
   );
