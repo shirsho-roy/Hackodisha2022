@@ -7,6 +7,7 @@ import devfolio from "../../assets/Sponsors/Gold/devfolio.png";
 import polygon from "../../assets/Sponsors/Gold/polygon.png";
 import fueler from "../../assets/Sponsors/Gold/fueler.png";
 import Filecoin from "../../assets/Sponsors/Gold/Filecoin.png";
+import solana from "../../assets/Sponsors/Gold/Solana logo.jpg";
 
 import stream from "../../assets/Sponsors/Silver/Streamyard.png";
 import hoverr from "../../assets/Sponsors/Silver/hoverrobotix.png";
@@ -16,6 +17,10 @@ import godaddy from "../../assets/Sponsors/Silver/goDaddy.png";
 import superteam from "../../assets/Sponsors/Silver/superteam.png";
 import twilio from "../../assets/Sponsors/Silver/twilio.png";
 import xyz from "../../assets/Sponsors/Silver/xyz.png";
+import Bubble from "../../assets/Sponsors/Silver/Bubble.io logo.png";
+import DigitalOcean from "../../assets/Sponsors/Silver/Digital Ocean.png";
+import Quillbot from "../../assets/Sponsors/Silver/Quillbot logo.png";
+
 
 import oneP from "../../assets/Sponsors/Bronze/1p.png";
 import axure from "../../assets/Sponsors/Bronze/axure.png";
@@ -35,6 +40,13 @@ import standoutstickers from "../../assets/Sponsors/Bronze/standOutStickers.png"
 import testmail from "../../assets/Sponsors/Bronze/testmail.png";
 import hackclub from  "../../assets/Sponsors/Bronze/hackClub.png";
 import snyk from "../../assets/Sponsors/Bronze/snyk.png";
+import centeredapp from "../../assets/Sponsors/Bronze/Centered.app.jpeg"
+import replit from "../../assets/Sponsors/Bronze/Replit.jpg"
+import Qoom from "../../assets/Sponsors/Bronze/Qoom logo.svg"
+
+
+
+
 const platinumSponsors = [
   {
     id: 1,
@@ -80,6 +92,12 @@ const goldSponsors = [
     link: "https://fueler.io/",
     image: fueler,
     alt: "Fueler gold sponsor for Hackodisha",
+  },
+  {
+    id: 5,
+    link: "https://solana.com/",
+    image: solana,
+    alt: "Solana gold sponsor for Hackodisha",
   },
 ];
 const silverSponsors = [
@@ -130,6 +148,24 @@ const silverSponsors = [
     link: "https://gen.xyz/",
     image: xyz,
     alt: "xyz Robotix silver sponsor for Hackodisha",
+  },
+  {
+    id: 10,
+    link: "https://bubble.io/",
+    image: Bubble,
+    alt: "Bubble Robotix silver sponsor for Hackodisha",
+  },
+  {
+    id: 11,
+    link: "https://www.digitalocean.com/",
+    image: DigitalOcean,
+    alt: "DigitalOcean Robotix silver sponsor for Hackodisha",
+  },
+  {
+    id: 12,
+    link: "https://quillbot.com/",
+    image: Quillbot,
+    alt: "Quillbot Robotix silver sponsor for Hackodisha",
   },
 ];
 
@@ -251,6 +287,24 @@ const bronzeSponsors = [
     image: hackclub,
     alt: "HackClub bronze sponsor for Hackodisha",
   },
+  {
+    id: 20,
+    link: "https://replit.com/",
+    image: replit,
+    alt: "Replit bronze sponsor for Hackodisha",
+  },
+  {
+    id: 21,
+    link: "https://www.centered.app/",
+    image: centeredapp,
+    alt: "Centeredapp bronze sponsor for Hackodisha",
+  },
+  {
+    id: 22,
+    link: "https://www.qoom.io/",
+    image: Qoom,
+    alt: "Qoom bronze sponsor for Hackodisha",
+  }
 ];
 
 export { platinumSponsors, bronzeSponsors, silverSponsors, goldSponsors };
